@@ -19,6 +19,7 @@ FONT_SIZE = 8
 FONT_GAP = 0.3
 NODE_RADIUS = 0.2
 ROUND_DIGITS = 1
+SHOW_ANNOTATIONS = False
 
 ################################################################################
 
@@ -104,7 +105,9 @@ def plotPoint(axes, x, y, time, radAngle, status):
     
     node = matplotlib.patches.Circle((x, y), radius=NODE_RADIUS, fill=False)
     axes.add_patch(node)
-    plt.text(x, y + FONT_GAP, annotation, horizontalalignment="center")
+
+    if SHOW_ANNOTATIONS == True:
+        plt.text(x, y + FONT_GAP, annotation, horizontalalignment="center")
 
 def plotPath(axes, path):
     
