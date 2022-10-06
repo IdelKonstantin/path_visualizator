@@ -18,7 +18,7 @@ POLYGON_Y_SIZE = 30
 FONT_SIZE = 8
 FONT_GAP = 0.3
 NODE_RADIUS = 0.2
-ROUND_DIGITS = 2
+ROUND_DIGITS = 1
 
 ################################################################################
 

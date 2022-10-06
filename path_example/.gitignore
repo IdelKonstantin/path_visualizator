@@ -1,0 +1,9 @@
+*.a
+*.so
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+Makefile
+example
+rep.txt
+
