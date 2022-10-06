@@ -842,7 +842,7 @@ int main()
     std::cout<<"holes_static=[";
     for(const RECT &rect : staticObstacles)
     {
-        if(!fwPl) std::cout<<",";
+        if(!fwPl) std::cout<<";";
         std::cout<<"("
                  <<rect.xMin<<":"<<rect.yMin
                  <<","<<rect.xMin<<":"<<rect.yMax
