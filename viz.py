@@ -164,7 +164,7 @@ axes = defineAxes()
 
 setFontSize()
 plotRestrictionHoles(axes, staticHoles, "g")
-plotRestrictionHoles(axes, dynamicHoles, "r")
+#plotRestrictionHoles(axes, dynamicHoles, "r")
 plotPath(axes, path)
 
 plt.show()
